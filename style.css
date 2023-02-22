@@ -1,0 +1,36 @@
+.app {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  background: #2E294E;
+  color:#FFD400;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  width: 1060px;
+  border-radius: 12px;
+  padding: 32px;
+  margin: 0 auto;
+}
+main h1 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 32px;
+}
+.reaction-test{
+    width:100%;
+    height: 360px;
+    background: #D90368;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reaction-test > span {
+    color:#fff;
+    font-size:20px;
+    font-weight: bold;
+}
